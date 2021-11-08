@@ -1,0 +1,307 @@
+*{
+    margin: 0px auto;
+    padding: 0px;
+    font-size: 17px;
+    color: red;
+}
+.wapper{
+    width: 1000px;
+}
+a{
+    text-decoration: none;
+}
+/*border ảnh*/
+.td-tab,.banner-one img,.about-span img,#text2 img ,.service-one-sl img{
+    box-shadow: rgb(85, 85, 85) 0px 0px 5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-image: initial;
+}
+/*phần đầu */
+.header{
+    height: 80px;
+    width: auto;
+    display: flex;
+    background-color: aqua;
+    text-align: center;
+}
+.name{
+    color: brown;
+    font-size: 3rem;
+    width: 50%;
+    height: 80px;
+    line-height: 80px;
+}
+/*menu */
+.menu{
+    width: 50%;
+}
+.menu ul{
+    
+    background: #1F568B;
+    list-style-type: none;
+    text-align: center;
+}
+.menu li{
+    color: red;
+    display: inline-block;
+    width: 120px;
+    height: 80px;
+    line-height: 80px;
+    position: relative;
+}
+.menu li a{
+    display: block;
+    font-size: 1.4rem;
+}
+.menu a:hover {
+    background: #F1F1F1;
+    color: #333;
+  }
+  /*Menu con*/
+
+.menu-ch {
+    display: none;
+    position: absolute;
+    margin-top: -20px;
+}
+ul li .menu-ch  li a{
+    font-size: 1rem;
+}
+.menu-ch  li{
+    background-color: blanchedalmond;
+    margin: 0px;
+}
+.menu li:hover .menu-ch {
+    display: block;
+}
+/*ảnh nền*/
+.background{
+    height: 360px;
+    margin-top: 50px;
+}
+/* content*/
+.content{
+    height: 250px;
+    display: flex;
+    
+}
+.content-text{
+    width: 60%;
+    margin: auto;
+    
+}
+.content-tab{
+    width: 40%;
+    margin: auto;
+}
+.content-text h2{
+    font-size: 1.8rem;
+    color:red;
+}
+.content-text p i{
+    color: #777;
+}
+
+/*banner*/
+.banner{
+    height: 250px;
+    display: flex;
+  
+}
+.banner-one,.banner-two,.banner-three,.banner-four{
+    width: 25%;
+}
+.banner-one img{
+    width: 240px;
+}
+.banner-one{
+margin: auto;
+}
+.banner-two p img,.footter-two p img{
+    width: 15px;
+    margin-top: 1px;
+}
+.banner-two p a{
+    font-size: 0.8rem;
+    margin: 3px;
+    color: #333;
+}
+.banner-two p,.footter-two p {
+    margin: 10px 10px;
+}
+.banner-three,.banner-four,.banner-two{
+    margin: auto;
+}
+.banner-three img, .banner-four img{
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+.banner-three p,.banner-four p{
+    margin-right: 5px;
+    color: #333;
+}
+/*footter*/
+.footter{
+    height:120px;
+    display: flex;
+    width: auto;
+    background-color: rgb(214, 209, 209);
+}
+.footter-one{
+    width:26%;
+    margin: auto;
+    margin-left: 25px;
+}
+.footter-two,.footter-three{
+    width: 37%;
+    margin: auto;
+}
+.footter-two p a{
+    font-size: 1rem;
+    margin: 3px;
+    color: #333;
+}
+/*about*/
+.text-about{
+    height: 500px;
+    display: flex;
+}
+.text-about-one{
+    width: 65%;
+    height: 500px;
+    
+}
+.text-about-two{
+    width: 35%;
+    height: auto;
+}
+.about-span{
+    margin: 25px auto;
+    display: flex;
+    height: 100px;
+    text-align: justify;
+    line-height: 25px;
+    
+}
+.text-about-one h2,.text-about-two h2{
+    font-size: 2.4rem;
+}
+
+.text-about-one,.text-about-two{
+    margin: auto;
+}
+.about-span p{
+    margin: 6px 10px 10px 10px;
+    color: #333;
+    
+}
+#text1,#text3{
+    height: 40px;
+    margin: 15px auto;
+}
+#text2{
+    height: 200px;
+    display: flex;
+    text-align: left;
+    line-height: 20px;
+    margin: 20px auto;
+}
+#text2 img{
+    width: 250px;
+    height: 170px;
+    margin:0px 15px;
+}
+
+.text-about-one span,.text-about-two p{
+    font-size: 0.8rem;
+    color: #333;
+}
+.text-about-one h2{
+    margin: 30px auto 20px 0px;
+}
+/*service*/
+.service-text{
+    height: 900px;
+}
+.service-one{
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.service-one {
+    margin:0px;
+}
+.service-one-sl{
+    margin-right: 25px;
+}
+
+.service-one-sl img{
+    width: 165px;
+    margin: 0px;
+}
+.service-one-sl  h3,.service-one-sl p,.service-one-sl a{
+    margin: 8px;
+}
+.service-text span h2{
+    font-size: 1.5rem;
+}
+.service-text span{
+    height: 40px;
+    width: 100%;
+    display: flex;
+}
+.service-text span #h2-one{
+    width: 70%;
+    margin:10px 40px;
+}
+.service-text span #h2-two{
+    width: 30%;
+    margin:10px 40px;
+}
+.service-content{
+    width: 1000px;
+    display: flex;
+}
+.service-two{
+    width: 30%;
+}
+.service-two td p{ 
+    color: #333;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+.service-two table tr {
+    margin: 20px;
+}
+
+.contact-tex{
+    width: 100%;
+    height: 500px;
+}
+.contact-from{
+    width: 50%;
+    height: 500px;
+}
+.contact-from input{
+    width: 80%;
+    margin-top: 20px;
+    border: 1px solid rgb(85, 85, 85);
+    color: #333;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+input {
+    display: inline-block;
+}
+.contact-from textarea{
+    margin-top: 20px;
+    width: 400px;
+    min-height: 130px;
+    border: 1px solid rgb(85, 85, 85);
+    color: #333;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
